@@ -32,7 +32,7 @@ class MyComponent extends React.Component {
     console.log("componentDidUpdate 2 Called Here.");
   }
 
-  componentWillUpdate() {
+  UNSAFE_componentWillUpdate() {
     console.log("componentWillUpdate 2 Called Here.");
   }
 
@@ -41,7 +41,7 @@ class MyComponent extends React.Component {
     console.log("componentDidMount 2 Called Here.");
   }
 
-  componentWillUpdate() {
+  UNSAFE_componentWillUpdate() {
     console.log("componentWillUpdate 2 Called Here.");
   }
 
@@ -54,7 +54,7 @@ class MyComponent extends React.Component {
     return true;
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     console.log("componentWillMount 2 Called Here.");
   }
 
