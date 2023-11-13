@@ -42,7 +42,7 @@ class MainComponent extends React.Component {
     console.log("componentDidMount 1 Called Here.");
   }
 
-  UNSAFE_componentWillUpdate() {
+  componentWillUpdate() {
     console.log("componentWillUpdate 1 Called Here.");
   }
 
@@ -55,7 +55,7 @@ class MainComponent extends React.Component {
     return true;
   }
 
-  UNSAFE_componentWillMount() {
+  componentWillMount() {
     console.log("componentWillMount 1 Called Here.");
   }
 
